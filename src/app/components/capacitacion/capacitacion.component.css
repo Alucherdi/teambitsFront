@@ -1,0 +1,22 @@
+.container{
+    margin: 0;
+    padding: 15px;
+}
+.infoIzquierda{
+    text-align: right;
+    margin: 0;
+    padding: 15px;
+}
+.infoDerecha{
+    text-align: left;
+    margin: 0;
+    padding: 15px;
+}
+.bg{
+    background-color: #ff9800;
+}
+.cent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

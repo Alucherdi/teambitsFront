@@ -1,0 +1,11 @@
+.contenedor{
+    padding: 20px;
+    background-color: #ff9800;
+}
+.atencion{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,9 @@
+
+
+<div class="contenedor">
+  <div class="robotoFont titleB">Últimas noticias</div>
+  <hr>
+  <div *ngFor="let new of news"
+  [routerLink]= "['/noticia' , new._id]" class="item robotFont">{{new.title}}</div>
+</div>
+

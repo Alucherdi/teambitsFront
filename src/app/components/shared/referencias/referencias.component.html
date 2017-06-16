@@ -1,0 +1,13 @@
+<div class="refcont mdl-shadow--8dp">
+	<div class="robotoFont titleB b">Referencias</div>
+	<div class="mdl-grid">
+
+		<div class="mdl-cell mdl-cell--4-col" *ngFor="let reference of references">
+			<div class="item">
+				<div class="nota">{{reference.title}}</div>
+				<div class="by">- {{reference.author}}</div>
+			</div>
+		</div>
+
+	</div>
+</div>

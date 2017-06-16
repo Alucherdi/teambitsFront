@@ -1,0 +1,21 @@
+<div class="container">
+  <h2 class="robotoFont textColor">Crea una cuenta nueva</h2>
+  <br>
+  <div class="error" *ngIf="isError">
+    <p>{{error}}</p>
+  </div>
+  <br>
+  <input class="mdl-textfield__input" type="text" placeholder="Nombre" #name>
+  <br>
+  <input class="mdl-textfield__input" type="email" placeholder="Email" #email>
+  <br>
+  <input (keyup.enter)= "setNewAccount(name.value , email.value, pass.value)" 
+  class="mdl-textfield__input" type="password" placeholder="Contraseña" #pass>
+  <br>
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+  (click)="setNewAccount(name.value , email.value, pass.value)">
+      <div class="robotoFont textColorB"> Enviar </div>
+  </button>
+  <br>
+  <div class="robotFont textColor">Ya tienes una cuenta? <p (click) = "login()" class="login">inicia sesión aquí</p></div>
+</div>

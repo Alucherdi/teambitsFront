@@ -1,0 +1,18 @@
+.refcont{
+  background-color: #ff9800
+}
+.item{
+    background-color: #3f51b5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #f2f2f2
+}
+.nota{
+    font-style: italic;
+    font-size: 16px;
+}
+.by{
+    font-size: 10px;
+}

@@ -1,0 +1,22 @@
+<div class="robotoFont titleB">Notas de Interés</div>
+<div class="contenedor">
+
+	<div class="cardContainer" *ngFor="let note of notes; let i = index">
+		<div class="demo-card-square mdl-card mdl-shadow--2dp">
+			<div class="contImg">
+				<img [src]="note.image" alt="">
+			</div>
+			<h2 class="textColor">{{note.title}}</h2>
+			<div class="mdl-card__supporting-text">
+				{{note.content}}
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<a [routerLink]= "['/note' , note._id]"
+				class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+					MÁS
+				</a>
+			</div>
+		</div>
+	</div>
+
+</div>

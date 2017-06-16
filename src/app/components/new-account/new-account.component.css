@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.error{
+    color: red;
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login{
+    color: deepskyblue;
+    cursor: pointer;
+}

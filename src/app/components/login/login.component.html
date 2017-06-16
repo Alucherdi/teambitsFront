@@ -1,0 +1,11 @@
+<div class="container">
+  <h2 class="textColor robotoFont">Inicia sesión</h2>
+  <input class="mdl-textfield__input" type="text" placeholder="Username" #name>
+  <br>
+  <input class="mdl-textfield__input" type="password" placeholder="Password" #password>
+  <br>
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+  (click)="login(name.value , password.value)">
+      <div class="robotoFont textColorB"> Login </div>
+  </button>
+</div>

@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+.robotoFont{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title{
+    font-size: 35px;
+    background-color: #3f51b5;
+}
+.titleB{
+    color: #3f51b5;
+    font-size: 35px;
+    border-bottom-width: 5px;
+    border-bottom-color: #ff9800;
+    border-bottom-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.titleB.b{
+    border-bottom-color: #3f51b5
+}
+.pryColor{
+    color: #3f51b5;
+}
+.secColor{
+    background-color: #3f51b5;
+}
+.textColor{
+    color: #757575;
+}
+.textColorB{
+    color: #f2f2f2;
+}
