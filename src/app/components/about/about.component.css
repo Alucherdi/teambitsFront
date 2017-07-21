@@ -42,3 +42,12 @@
     flex-direction: column;
     justify-content: center;
 }
+.containerInfoA{
+    border-radius: 20px;
+    background-color: #ff9800;
+    padding: 20px;
+    min-width: 100%;
+}
+.containerInfoA h3{
+    text-align: center;
+}

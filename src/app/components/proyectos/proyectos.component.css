@@ -1,0 +1,25 @@
+.contenedor{
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+}
+.containerInfo{
+    flex-direction: row;
+    justify-content: center;
+}
+.containerInfoA{
+    border-radius: 20px;
+    background-color: #ff9800;
+    padding: 20px;
+    margin: 20px;
+    min-width: 100%;
+}
+.containerInfoA h3{
+    text-align: center;
+}
+.legends{
+    text-align: center;
+}

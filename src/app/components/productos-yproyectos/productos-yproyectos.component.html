@@ -1,47 +1,44 @@
+<div class="mdl-card__title robotoFont title mdl-shadow--8dp textColorB">
 
-
-<div class="mdl-card__title robotoFont title mdl-shadow--8dp textColorB">Productos y proyectos</div>
+	Productos y proyectos</div>
 <div class="contenedor">
-  <br>
+	<br>
 
-  <div class="robotoFont textColor legends">Teambits cuenta con varios productos utilizados 
-    ya por empresas mexicanas.</div>
-
-
-    <div class="containerInfoA mdl-shadow--2dp">
-      <h3 class="textColorB">Productos Destacados</h3>
-
-      <div class="mdl-grid containerInfo textColorB">
-        <div class="mdl-cell mdl-cell--4-col">
-          <ul>
-            <li>Banca Electrónica y Crédito Multicanal</li>
-            <li>Intranet Single Sign On e integración de Funcionalidad de los Legados de distintos flujos de trabajo</li>
-            <li>Portal Agentes y Operaciones</li>
-            <li>Plataforma Web para financiamiento Masivo (Crowdeling*)</li>
-            <li>Core Administración Crowdeling</li>
-            <li>Simulador de Créditos y Seguros</li>
-            <li>Implementación de Portales y Administración de Contenido ESB: WISO2, JBOSS.</li>
-            <li>Reportes para cumplimiento de renovación y certificación.</li>
-          </ul>
-        </div>
-        <div class="mdl-cell mdl-cell--4-col">
-          <ul>
-            <li>SIF. Sistema Integral Fiscal, con facturación electrónica y timbrado</li>
-            <li>ArmStrong. Sistema de Evaluación de Recursos Humanos</li>
-            <li>DPL. Data Production Line. Sistema de Mediación</li>
-            <hr>
-            <li (click)="erp = !erp" style="cursor:pointer">ERP, instalado de medianas y grandes empresas, diseñado y construido de forma modular: 
-              Contabilidad, cuentas por pagar, Cuentas por Cobrar, Inventarios, facturación electrónica, 
-              control de asistencia, nómina, Produccion y Punto de Ventas
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
+	<div class="robotoFont textColor legends">Teambits cuenta con varios productos utilizados ya por empresas mexicanas.</div>
 
 
-</div>
-<div *ngIf="erp">
-  <app-erp></app-erp>
+	<div class="containerInfoA mdl-shadow--2dp textColorB">
+		<h3 class="titleB b">Productos Destacados</h3>
+
+		<!--<div class="mdl-grid containerInfo textColorB">
+			<div class="mdl-cell mdl-cell--4-col">
+				<ul>
+					<li>Banca Electrónica y Crédito Multicanal</li>
+					<li>Intranet Single Sign On e integración de Funcionalidad de los Legados de distintos flujos de trabajo</li>
+					<li>Portal Agentes y Operaciones</li>
+					<li>Plataforma Web para financiamiento Masivo (Crowdeling*)</li>
+					<li>Core Administración Crowdeling</li>
+					<li>Simulador de Créditos y Seguros</li>
+					<li>Implementación de Portales y Administración de Contenido ESB: WISO2, JBOSS.</li>
+					<li>Reportes para cumplimiento de renovación y certificación.</li>
+				</ul>
+			</div>
+			<div class="mdl-cell mdl-cell--4-col">
+				<ul>
+					<li>SIF. Sistema Integral Fiscal, con facturación electrónica y timbrado</li>
+					<li>ArmStrong. Sistema de Evaluación de Recursos Humanos</li>
+					<li>DPL. Data Production Line. Sistema de Mediación</li>
+					<hr>
+					<li [routerLink]="['/erp']" style="cursor:pointer">ERP, instalado de medianas y grandes empresas, diseñado y construido de forma modular: Contabilidad, cuentas por pagar,
+						Cuentas por Cobrar, Inventarios, facturación electrónica, control de asistencia, nómina, Produccion y Punto de Ventas
+					</li>
+				</ul>
+			</div>
+		</div>-->
+		<ul>
+			<li>B4C</li>
+			<li>DPL</li>
+			<li [routerLink]="['/erp']" style="cursor:pointer">FUSIÓN PRO</li>
+		</ul>
+	</div>
 </div>

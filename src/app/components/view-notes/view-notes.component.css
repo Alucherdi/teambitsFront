@@ -6,3 +6,8 @@
     align-items: center;
     overflow: hidden;
 }
+.containerDescription{
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+}

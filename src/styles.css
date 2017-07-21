@@ -32,3 +32,6 @@
 .textColorB{
     color: #f2f2f2;
 }
+.allCont{
+    min-height: 100vh;
+}

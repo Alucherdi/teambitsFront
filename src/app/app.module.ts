@@ -34,6 +34,7 @@ import { ReferenciasComponent } from './components/shared/referencias/referencia
 import { ViewNewsComponent } from './components/view-news/view-news.component';
 import { ViewNotesComponent } from './components/view-notes/view-notes.component';
 import { ContactoComponent } from './components/shared/contacto/contacto.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { ContactoComponent } from './components/shared/contacto/contacto.compone
     ReferenciasComponent,
     ViewNewsComponent,
     ViewNotesComponent,
-    ContactoComponent
+    ContactoComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

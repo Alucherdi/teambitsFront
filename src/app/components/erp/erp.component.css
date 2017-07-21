@@ -8,9 +8,15 @@
     height: 60vh;
     justify-content: center;
     align-items: center;
+
+    background-image: url("https://image.prntscr.com/image/c73e498d140842a2b88cedc2a221a4f7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .botones{
-margin: 10px;
+    margin: 10px;
 }
 .dialog{
     font-size: 10px;
@@ -20,4 +26,17 @@ margin: 10px;
     margin-top: 0;
     margin: 30px;
     padding: 20px;
+}
+.titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    background-color: #ff9800;
+    border-radius: 50px;
+}
+.titulo{
+    margin-left: 20px;
+    font-size: 24px;
+    color: #f2f2f2;
 }

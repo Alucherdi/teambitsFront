@@ -5,7 +5,7 @@
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
       <h1 class="mdl-mega-footer__heading">Conócenos</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">¿Quienes somos?</a></li>
+        <li><a [routerLink]="['about']">¿Quienes somos?</a></li>
         <li><a href="#">Alianzas</a></li>
         <li><a href="#">Nuestros valores</a></li>
         <li><a href="#">¿Quienes son nuestros clientes?</a></li>
@@ -17,7 +17,6 @@
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
       <h1 class="mdl-mega-footer__heading">Servicios</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">Consultoría</a></li>
         <li><a [routerLink]="['outsourcing']">Outsourcing</a></li>
         <li><a [routerLink]="['capacitacion']">Capacitación</a></li>
         <li><a [routerLink]="['desarrollo']">Desarrollo Software</a></li>
@@ -28,16 +27,19 @@
 
     <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">Productos y Proyectos</h1>
+      <h1 class="mdl-mega-footer__heading">Productos</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">Crowdleing</a></li>
-        <li><a href="#">Proyectos Destacados</a></li>
-        <li><a href="#">Proyectos de Tiempo Real</a></li>
-        <li><a href="#">Proyectos de Experiencia</a></li>
-        <li><a href="#">Sistemas Batch</a></li>
-        <li><a href="#">Productos TELCOS</a></li>
-        <li><a [routerLink]="['erp']">ERP FusiónPro</a></li>        
-        <li><a href="#">Programa B4C</a></li>
+        <li><a [routerLink]="['products']">B4C</a></li>
+        <li><a [routerLink]="['products']">DPL</a></li>
+        <li><a [routerLink]="['erp']">ERP FusiónPro</a></li> 
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Proyectos</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a [routerLink]="['projects']">Proyectos Destacados</a></li>
       </ul>
     </div>
 
